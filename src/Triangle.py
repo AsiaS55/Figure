@@ -15,7 +15,7 @@ class Triangle(Figure):
         return self.a + self.b + self.c
 
 
-triangle = Triangle(b=5, a=4)
+triangle = Triangle(b=5, a=4 )
 print(triangle.area_triangle)
 
 triangle = Triangle(a=5, b=4, c=1)

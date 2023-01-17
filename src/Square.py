@@ -11,7 +11,7 @@ class Square(Figure):
         return 4 * self.a
 
 
-square = Square (a=5)
+square = Square(a=5)
 print(square.perimeter_square)
 
 print(square.area_square)
